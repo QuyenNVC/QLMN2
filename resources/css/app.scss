@@ -1,0 +1,62 @@
+.form-label.required::after {
+    content: "*";
+    color: #f00;
+}
+
+.ag-header-group-cell-label,
+.ag-header-cell-label {
+    justify-content: center;
+}
+
+.form-group-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 0;
+    margin-top: -20px;
+    margin-right: 15px;
+}
+
+.modal-content .card .form-group-input {
+    padding: 0;
+    padding-bottom: 15px;
+    width: 100%;
+    justify-content: space-between;
+    .label-input {
+        flex-basis: unset;
+    }
+    .el-input-number,
+    .el-input,
+    .el-select {
+        width: 100%;
+    }
+}
+
+.wrap-filter {
+    display: flex;
+    gap: 15px;
+    padding: 15px 15px;
+    justify-content: space-between;
+    .label-input {
+        flex-basis: 100px !important;
+        white-space: nowrap;
+        &.flex_basis_225 {
+            flex-basis: 225px !important;
+        }
+    }
+    .el-select {
+        width: 100%;
+    }
+}
+
+.wrap-table .el-table td,
+.wrap-table .el-table th {
+    padding: 6px 0;
+}
+
+// .filter_form h5 {
+//     text-align: center;
+//     text-transform: uppercase;
+//     font-weight: bold !important;
+//     font-size: 24px;
+// }

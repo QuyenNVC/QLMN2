@@ -1,0 +1,1 @@
+[15-May-2021 13:46:16 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.3.0". You are running 5.6.40. in /home/smartid84/public_html/qlns/vendor/composer/platform_check.php on line 25

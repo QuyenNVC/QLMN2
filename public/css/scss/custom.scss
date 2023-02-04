@@ -1,0 +1,18 @@
+.second-level {
+    .sidebar-item {
+        &.active {
+            .sidebar-link {
+                opacity: 1 !important;;
+                i {
+                    opacity: 1 !important;;
+                }
+            }
+        }
+        .sidebar-link {
+            opacity: 0.6 !important;
+            i {
+                opacity: 0.6 !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.second-level .sidebar-item.active .sidebar-link {
+  opacity: 1 !important; }
+  .second-level .sidebar-item.active .sidebar-link i {
+    opacity: 1 !important; }
+
+.second-level .sidebar-item .sidebar-link {
+  opacity: 0.6 !important; }
+  .second-level .sidebar-item .sidebar-link i {
+    opacity: 0.6 !important; }
